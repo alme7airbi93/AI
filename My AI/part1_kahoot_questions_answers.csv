@@ -1,0 +1,145 @@
+﻿question,answer
+What does Version Control primarily do?,Tracks file changes
+Which Git state is your active workspace?,Working Directory
+What command stages files for commit?,git add
+What is the purpose of a branch in Git?,Isolate development
+What does 'git commit -m' do?,Saves changes with message
+Which command shows the current Git status?,git status
+What is the main benefit of pull requests?,Code review and discussion
+Which command uploads changes to GitHub?,git push
+Why write clear commit messages?,Understand changes easily
+Which Git state holds changes before commit?,Staging Area
+What does unsupervised learning find?,Hidden patterns
+True or false: K-Means uses labeled data,False
+What does K-Means group?,Data points
+What is the first step in K-Means?,Choose clusters
+Which algorithm detects anomalies?,KNN
+What does KNN calculate?,Distance
+What does a high distance score indicate?,Abnormality
+What does PCA help with?,Visualization
+What is the first step in project workflow?,Data collection
+What does feature scaling apply?,StandardScaler
+What does K-Means label?,Operating clusters
+What controls the update step size?,Learning rate
+Which hyperparameter affects memory usage most?,Batch size
+What is an epoch in training?,Full data pass
+What does dropout rate control?,Neuron disabling
+What does MLOps combine?,DevOps and Machine Learning
+What tool is used for experiment tracking?,MLflow
+What tool monitors model drift?,Evidently
+What is continuous training in MLOps?,Automated retraining
+Which tool provides UI for model demos?,Gradio
+What is the main goal of MLOps?,Reliable models
+What does CLIP stand for?,Contrastive Language–Image Pretraining
+What is zero-shot classification?,Predicts unseen classes
+What does CLIP calculate for classification?,Similarity scores
+What is a best practice for prompting?,Use descriptive labels
+What does CLIP use for text input?,Text transformer
+What is the output of CLIP?,Probability scores
+Which Python data structure is ordered and mutable?,List
+The median of a dataset is less sensitive to outliers than the mean.,True
+"The variance of [5, 5, 5] is zero.",True
+A Python tuple can be modified after creation.,False
+Which Python statement correctly defines a function?,def foo(): ...
+Linear regression is best used for predicting:,a continuous numeric outcome
+Logistic regression is primarily used for:,binary classification
+What does the output of logistic regression represent?,A probability between 0 and 1
+K-Means clustering is an example of:,unsupervised learning
+The k-NN (k-nearest neighbors) algorithm is typically used for:,detecting outliers
+Neural networks learn by using backpropagation (gradient descent) to update weights in order to minimize loss.,True
+Which algorithm is supervised?,logistic regression
+True or False: Neural networks learn by backpropagation.,True
+What does MLOps stand for?,Machine Learning Operations
+Version control and automation are key parts of MLOps to ensure reproducibility and continuous deployment.,True
+Which Gini value means pure node?,0
+What does a leaf node represent?,Final prediction
+What does a high Gini indicate?,Mixed node
+Why limit max_depth in decision trees?,Prevent overfitting
+What happens at each node in the tree?,Ask yes/no question
+Which node is considered very pure?,Gini ≈ 0.083
+"What does a low Gini, high-risk node mean?",Prioritize inspections
+How does the tree choose splits?,Maximize Gini gain
+What is the effect of a smaller max_depth?,Simpler model
+What does a higher Gini node suggest?,Mixed behavior
+What is the business use of low-Gini nodes?,Clear decisions
+Which metric balances Precision and Recall?,F1-Score
+What is the main risk of False Negatives?,Missed failures
+Which metric shows how many actual positives are caught?,Recall
+What is the formula for Precision?,TP/(TP+FP)
+Which metric is best if false alarms are costly?,Precision
+Why inspect confusion matrix besides accuracy?,To find error types
+Which metric to prioritize if missing positives is dangerous?,Recall
+What is a hyperparameter?,Pre-training choice
+What does batch size affect?,Update speed
+Which is an epoch?,Full data pass
+What does embedding size control?,Token vector size
+What is dropout used for?,Disable neurons
+What does Adam optimizer do?,Adjusts weights
+What is learning rate like?,Step size
+Which hyperparameter controls model depth?,Hidden layers
+What data type is 3.14159?,float
+Which data structure is immutable?,Tuple
+What does 'bool' represent?,True or False
+Which loop repeats while a condition is true?,while loop
+Which data structure stores key-value pairs?,Dictionary
+What does the 'return' statement do?,Sends result back
+What is the output of print(type(True))?,<class 'bool'>
+Which data structure is unordered and unique?,Set
+Which data structure allows duplicates?,List
+Who is the creator of Python?,Guido van Rossum
+What is the best practice for functions?,Do one thing well
+What does linear regression predict?,A number
+Which equation represents linear regression?,Y = mX + b
+What does the coefficient (m) show?,Change in Y per X
+Logistic regression predicts what?,A category
+What shape does logistic regression use?,S-curve
+What is an Odds Ratio?,Change in odds
+An Odds Ratio of 1.5 means?,50% higher odds
+Which of the following is not a main type of machine learning?,Descriptive Learning
+What does R-squared measure?,Variation explained
+The intercept (b) means?,Predicted Y at X=0
+Linear regression moves us from guessing to?,Predicting
+True or false: Logistic regression predicts continuous numbers,False
+What is statistical thinking?,Probabilistic reasoning
+Which measure finds the center of data?,Mean
+Why use median over mean?,Robust to outliers
+What does skewness measure?,Distribution asymmetry
+What is probability?,Likelihood of event
+Why sample data in ML?,To save resources
+What does the Central Limit Theorem state?,Sample means normal
+What is a confidence interval?,Range for parameter
+What is hypothesis testing used for?,Test data claims
+What describes the center of a skewed distribution best?,Median
+What does linear regression primarily help you predict?,A numerical value
+Which regression type predicts a category like 'equipment failure' or 'no-equipment failure'?,Logistic Regression
+What does the R-squared (R²) metric tell us?,How well inputs explain the outcome
+"If a model's R-squared is 100%, what does it mean?",The model explains all variation
+A model's output is a probability. What is the range?,0 to 1
+Which measure is most sensitive to outliers?,Mean
+Which measure is most interpretable for spread?,Standard deviation
+Which hypothesis is the default assumption?,Null hypothesis
+What does skewness measure?,Asymmetry
+What does unsupervised learning detect?,Hidden patterns
+Skewness measures what aspect?,Asymmetry
+Which algorithm groups data into clusters?,K-Means
+KNN detects anomalies by measuring what?,Distance to neighbors
+Which algorithm is recommended for sensor abnormality?,KNN anomaly detection
+Which regression type predicts a category like 'click' or 'no-click'?,Logistic Regression
+"Instead of 'the coefficient is 0.75', what's a better business phrase?",It predicts an increase
+Which step comes first in the project?,Collect sensor data
+What does each K-Means cluster represent?,Operating condition
+What does IQR measure?,Middle 50% spread
+Skewness measures what?,Symmetry
+What does standard deviation measure?,Spread in units
+What is a confidence interval?,Range of values
+Which measure is best for skewed data?,Median
+What is the first tier in Three-Tier Architecture?,Presentation Tier
+Which technology is used in the backend?,Python
+Which library helps rapid UI prototyping in Python?,Gradio
+What is an API?,Software communication
+Which format is universal for API data exchange?,JSON
+What does JSON use to represent objects?,Curly braces
+What is the main role of the backend?,Process logic
+Which API example is used for weather data?,OpenWeatherMap
+What does the request-response cycle start with?,Request
+What does Gradio allow you to share easily?,Web demos
